@@ -374,10 +374,10 @@ import DecorativeLine from "../ui/decorative-line.vue";
     left: 0;
   }
 
-  .background-gif-container {
-    display: none;
-  }
-
+  .line-1,
+  .line-2,
+  .line-3,
+  .background-gif-container,
   .jm-logo-overlay {
     display: none;
   }
@@ -386,6 +386,16 @@ import DecorativeLine from "../ui/decorative-line.vue";
 @media (max-width: 768px) {
   .main-header {
     padding: 1.5rem 2rem;
+  }
+
+  .top-nav {
+    top: 0;
+    width: 100%;
+  }
+
+  .try-jus-mundi-button {
+    width: 100%;
+    justify-content: center;
   }
 
   .content-container {
@@ -399,7 +409,7 @@ import DecorativeLine from "../ui/decorative-line.vue";
 
   .header-description {
     font-size: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
   }
 
   .cta-button {
