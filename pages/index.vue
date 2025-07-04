@@ -26,7 +26,7 @@ import QuotesSection from "~/components/sections/quotes-section.vue";
 }
 
 .quotes-section {
-  padding: 4rem;
+  padding: 8rem 4rem 3rem 4rem;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -185,7 +185,7 @@ import DecorativeLine from "../ui/decorative-line.vue";
   grid-row: 2;
   height: 270px;
   display: flex;
-  justify-content: end;
+  left: 120px;
   overflow: hidden;
   position: relative;
   opacity: 0;
@@ -193,7 +193,7 @@ import DecorativeLine from "../ui/decorative-line.vue";
 }
 
 .background-gif {
-  width: 73%;
+  width: 480px;
   height: 100%;
   object-fit: cover;
   filter: blur(0px);
