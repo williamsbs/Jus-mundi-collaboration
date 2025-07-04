@@ -1,0 +1,88 @@
+/* ==========================================================================
+   CSS CUSTOM PROPERTIES (VARIABLES)
+   ========================================================================== */
+
+:root {
+  /* ==========================================================================
+     FONT VARIABLES
+     ========================================================================== */
+  --font-primary: "Larken", Georgia, serif;
+  --font-secondary: "IBM Plex Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, sans-serif;
+  --font-ui: "Lato", Georgia, serif;
+
+  /* ==========================================================================
+     COLOR SYSTEM
+     ========================================================================== */
+
+  /* Brand Colors */
+  --color-primary-blue: #0098fe;
+  --color-primary-green: #85d13f;
+
+  /* Neutral Colors */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray-dark: #333333;
+  --color-gray-medium: #555555;
+  --color-gray-body: #2b2c2e;
+
+  /* Semantic Colors */
+  --color-text-primary: var(--color-gray-body);
+  --color-text-secondary: var(--color-gray-medium);
+  --color-text-body: var(--color-gray-body);
+
+  /* Link Colors */
+  --color-link-default: var(--color-gray-dark);
+  --color-link-hover: var(--color-primary-blue);
+  --color-link-focus: var(--color-primary-blue);
+
+  /* Button Colors */
+  --color-button-primary: var(--color-primary-blue);
+  --color-button-text: var(--color-white);
+
+  /* Background Colors */
+  --color-background-primary: var(--color-white);
+
+  /* Border Colors */
+  --color-border-default: var(--color-gray-dark);
+  --color-border-hover: var(--color-primary-blue);
+
+  /* ==========================================================================
+     SHADOW SYSTEM
+     ========================================================================== */
+
+  /* Blue Shadows */
+  --shadow-blue-light: rgba(70, 156, 247, 0.3);
+  --shadow-blue-medium: rgba(70, 156, 247, 0.4);
+  --shadow-blue-strong: rgba(70, 156, 247, 0.5);
+
+  /* Dark Shadows */
+  --shadow-dark-light: rgba(0, 49, 81, 0.2);
+  --shadow-dark-medium: rgba(4, 1, 65, 0.1);
+  --shadow-dark-subtle: rgba(0, 49, 81, 0.03);
+
+  /* General Shadows */
+  --shadow-black-light: rgba(0, 0, 0, 0.1);
+  --shadow-focus: rgba(70, 156, 247, 0.3);
+
+  /* ==========================================================================
+     GRADIENT SYSTEM
+     ========================================================================== */
+
+  /* White Fade Gradients */
+  --gradient-white-horizontal: linear-gradient(
+    to right,
+    var(--color-white) 0%,
+    transparent 15%,
+    transparent 85%,
+    var(--color-white) 100%
+  );
+
+  --gradient-white-vertical: linear-gradient(
+    to bottom,
+    var(--color-white) 0%,
+    transparent 15%,
+    transparent 85%,
+    var(--color-white) 100%
+  );
+}

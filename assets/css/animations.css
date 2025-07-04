@@ -1,0 +1,79 @@
+/* ==========================================================================
+   REUSABLE ANIMATIONS
+   ========================================================================== */
+
+/* Circle Growth Animation */
+@keyframes growCircle {
+  0% {
+    transform: scale(0.3);
+    box-shadow: none;
+  }
+  10% {
+    box-shadow: none;
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: -10px 4px 60px rgba(4, 1, 65, 0.1);
+  }
+}
+
+/* Mobile Circle Growth Animation */
+@keyframes growCircleMobile {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.56);
+    opacity: 1;
+  }
+}
+
+/* General Fade In Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Background Fade In with Translate */
+@keyframes fadeInBackground {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Slide In from Left Animation */
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Diagonal Slide In Animation */
+@keyframes slideInDiagonal {
+  0% {
+    opacity: 0;
+    transform: translateY(-50%) translate(-80px, 30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-50%) translate(0, 0);
+  }
+}

@@ -1,0 +1,141 @@
+/* ==========================================================================
+   BUTTON PATTERNS
+   ========================================================================== */
+
+/* Primary button base styles (used in header CTA) */
+.btn-primary {
+  display: inline-block;
+  font-family: var(--font-ui);
+  font-weight: 500;
+  font-size: 0.9rem;
+  background-color: var(--color-button-primary);
+  color: var(--color-button-text);
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  padding: 1.5rem 1.8rem;
+}
+
+/* Secondary button base styles (used in header nav) */
+.btn-secondary {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  text-decoration: none;
+  background-color: var(--color-white);
+  font-weight: bold;
+  font-family: var(--font-ui);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  letter-spacing: 0.13em;
+  padding: 13px;
+}
+
+/* Text link button (used in quotes section) */
+.btn-link {
+  display: inline-block;
+  font-family: var(--font-secondary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-border-default);
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0.15em;
+  color: var(--color-link-default);
+  position: relative;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+  color: var(--color-link-hover);
+  border-bottom-color: var(--color-border-hover);
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.btn-link:focus {
+  box-shadow: 0 0 0 2px var(--shadow-focus);
+  border-radius: 2px;
+}
+
+/* ==========================================================================
+   LAYOUT PATTERNS
+   ========================================================================== */
+
+/* Centered content container */
+.content-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Section container pattern */
+.section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.relative-position {
+  position: relative;
+}
+
+/* ==========================================================================
+   GRID PATTERNS
+   ========================================================================== */
+
+/* Three-column feature grid (used in partnership section) */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .features-grid {
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* ==========================================================================
+   TEXT PATTERNS
+   ========================================================================== */
+
+/* Large section titles (used in partnership) */
+.title-large {
+  font-family: var(--font-primary);
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Feature card titles (used in partnership) */
+.title-feature {
+  font-family: var(--font-secondary);
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+
+/* Body text descriptions */
+.text-description {
+  font-family: var(--font-secondary);
+  font-size: 1rem;
+  line-height: 2;
+  color: var(--color-text-body);
+  margin: 0;
+  letter-spacing: 0.05em;
+}
