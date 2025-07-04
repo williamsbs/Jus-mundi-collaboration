@@ -3,9 +3,6 @@
    Core styles for the application - imports all other stylesheets
    ========================================================================== */
 
-/* Import typography (fonts must be loaded first) */
-@import "./typography.css";
-
 /* Import CSS custom properties (variables) */
 @import "./variables.css";
 
