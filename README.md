@@ -29,7 +29,7 @@ This project was created as part of a **Tech - Front-end Specialists Kata** assi
 
 ### Prerequisites
 
-- Node.js (v18 or higher)
+- Node.js (version >20)
 - npm or yarn package manager
 
 ### Installation & Setup
